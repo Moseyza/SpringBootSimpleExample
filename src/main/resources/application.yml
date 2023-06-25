@@ -1,0 +1,12 @@
+logging:
+  level:
+    org:
+      springframework:
+        jdbc: DEBUG
+spring:
+  datasource:
+    generate-unique-name: false
+    name: githubrepositoriesdb
+  h2:
+    console:
+      enabled: true
